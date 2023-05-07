@@ -80,7 +80,7 @@ while True :
 
     headX , headY = snake_pos[0] , snake_pos[1]
     foodX , foodY = food_pos
-    # algorithm 
+
     if headX<foodX : 
         next_move = "RIGHT"
     elif headX>foodX : 
